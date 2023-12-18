@@ -8,7 +8,7 @@ const Note = ({ note, getNotes }) => {
   const deleteNote = async () => {
     try {
       const response = await fetch(
-        `https://firenote-7d033-default-rtdb.firebaseio.com/notes/${id}.json`,
+        `https://social-c467a-default-rtdb.asia-southeast1.firebasedatabase.app/notes/${id}.json`,
         {
           method: "DELETE",
         }
